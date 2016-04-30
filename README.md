@@ -2,7 +2,11 @@
 
 ## Introduction
 
-Table Writer is a simple utility program to print tabular data in pretty format.
+This is a simple utility program to print data in a pretty table format to console. This package provides features like
+
+* Simplistic API with full flexibility to mix and match different styles of printing a row
+* Can print all data at once as table OR print individual row when needed
+* Can position text inside the column to center, right or left. This can be changed on per row basis
 
 ## Installation
 
