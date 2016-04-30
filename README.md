@@ -21,7 +21,7 @@ columnHeaders := []string{"Id", "Count", "Timestamp"}
 // Timestamp is epoch, so never beyond 10 digits, 12 looks reasonable space
 columnMaxWidths := []int{6, 9, 12}
 
-tableWriter, err := NewTableWriterWithWriter(os.Stdout, headers, widths)
+tableWriter, err := table_writer.NewTableWriterWithWriter(os.Stdout, headers, widths)
 ```
 
 ### Printing Table (All at once)
